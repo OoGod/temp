@@ -1,0 +1,75 @@
+[INFO  - 2019-04-28T12:59:48.415Z] GhostDriver - Main - running on port 52959
+[INFO  - 2019-04-28T12:59:52.630Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-04-28T12:59:52.630Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.customHeaders:  - {}
+[INFO  - 2019-04-28T12:59:52.630Z] Session [83685280-69b5-11e9-97af-07d265da0299] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-04-28T12:59:52.630Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 83685280-69b5-11e9-97af-07d265da0299
+[ERROR - 2019-04-28T12:59:54.481Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T12:59:54.482Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://img3.doubanio.com/misc/mixed_static/492281269487f83c.js:108)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T12:59:57.829Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T12:59:57.829Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=20&limit=20&sort=new_score&status=P:521)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T12:59:59.456Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T12:59:59.456Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=40&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:01.371Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:01.372Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=60&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:02.889Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:02.890Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=80&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:04.567Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:04.567Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=100&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:06.310Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:06.310Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=120&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:08.247Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:08.247Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=140&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:10.561Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:10.562Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=160&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:11.756Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-28T13:00:11.756Z] Session [83685280-69b5-11e9-97af-07d265da0299] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/30446849/comments?start=180&limit=20&sort=new_score&status=P:517)
+
+  phantomjs://platform/console++.js:263 in error

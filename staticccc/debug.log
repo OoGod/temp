@@ -1,0 +1,2 @@
+[0428/185418.766:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[0428/185418.769:ERROR:exception_snapshot_win.cc(98)] thread ID 18072 not found in process

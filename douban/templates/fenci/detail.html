@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>豆瓣评论分析</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+			font-family: "Microsoft Yahei";
+			font-size: 18px;
+		}
+		.header{
+			height: 100px;
+			background-color: #e3ebec;
+			color:#27a;
+			font-size: 27px;
+			text-align: center;
+			line-height: 100px;
+			/*width: 100%;*/
+		}
+        .header a{
+			text-decoration: none;
+			color:#27a;
+		}
+		.analysis{
+			width: 1000px;
+			height: 1000px;
+			margin: 20px auto 0;
+			background-color: #f7f7f7;
+			/*font-size: 18px;*/
+			color: #666;
+		}
+		.com_con{
+			/*width: 400px;*/
+			/*height: 200px;*/
+		}
+		.fenci{
+			width: 300px;
+			/*height: 300px;*/
+			margin-left:20px;
+		}
+		.yuntu{
+			width: 300px;
+			height: 300px;
+			margin-right: 100px;
+		}
+		.yuntu img{
+			width: 300px;
+			height: 400px;
+		}
+		.lf{
+			float: left;
+		}
+		.rf{
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+        <a href="/deal_com/">豆瓣评论分析</a>
+	</div>
+	<div class="analysis">
+		<h1>评论内容</h1>
+		<div class="com_con" >
+			 {{com_detail}}
+        </div>
+		<div class="fenci lf">
+			<h2>分词结果</h2>
+            {{fenci_con}}
+        </div>
+		<div class="yuntu rf">
+			<h2>词云图</h2>
+			<img src="{% static img %}" alt="My image"/>
+
+		</div>
+	</div>
+
+	<div></div>
+</body>
+</html>

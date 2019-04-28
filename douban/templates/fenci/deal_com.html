@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+			font-family: "Microsoft Yahei";
+			font-size: 16px;
+		}
+		.header{
+			height: 50px;
+			background-color: #e3ebec;
+			color:#27a;
+			font-size: 20px;
+			padding-left: 50px;
+			line-height: 50px;
+			/*width: 100%;*/
+		}
+		.comment_list{
+			background-color: #f7f7f7;
+			width: 1200px;
+			margin: 20px auto;
+			padding: 0;
+			/*height: 1000px;*/
+			/*display: inline-block;*/
+			overflow: hidden;
+			list-style: none;
+		}
+		.comment_list li{
+			display: inline-block;
+			/*background-color: cyan;*/
+			height: 50px;
+			width: 95%;
+			/*margin-top: 5px;*/
+			overflow: hidden;
+			padding:6px 30px 0;
+			border-top: 1px solid #ddd;
+			border-bottom: 3px;
+			line-height: 25px;
+		}
+        .comment_list li a{
+			text-decoration: none;
+			color:#3f3f3f;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		豆瓣评论
+	</div>
+	<ul class="comment_list">
+        {%for comment in com_info%}
+            <li><a href="/{{comment.id}}/">{{comment}}</a></li>
+        {%endfor%}
+	</ul>
+</body>
+</html>
